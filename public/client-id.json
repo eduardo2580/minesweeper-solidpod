@@ -1,0 +1,21 @@
+{
+  "@context": "https://www.w3.org/ns/solid/oidc-context.jsonld",
+  "client_id": "https://minesweeper.apps.privatedatapod.com/client-id.json",
+  "client_name": "Minesweeper",
+  "redirect_uris": [
+    "https://minesweeper.apps.privatedatapod.com/",
+    "http://minesweeper.apps.privatedatapod.com/"
+  ],
+  "logo_uri": "https://minesweeper.apps.privatedatapod.com/icons/pwa-192x192.png",
+  "client_uri": "https://minesweeper.apps.privatedatapod.com/",
+  "scope": "openid webid offline_access",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "application_type": "web"
+}

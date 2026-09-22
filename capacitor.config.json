@@ -1,0 +1,13 @@
+{
+  "appId": "com.example.mysolidapp",
+  "appName": "My Solid App",
+  "webDir": "dist",
+  "server": {
+    "hostname": "YOUR-APP-DOMAIN",
+    "iosScheme": "https",
+    "androidScheme": "https"
+  },
+  "ios": {
+    "contentInset": "automatic"
+  }
+}
